@@ -47,7 +47,7 @@ function check() {
         answer_turn = "player2"
         document.getElementById("player_answer").innerHTML = "Answer Turn -" + name2;
     } else {
-        question_turn == "player2"
+        answer_turn == "player2"
         document.getElementById("player_answer").innerHTML = "Answer Turn -" + name1;
     }
     document.getElementById("input_check_box").value = "";
